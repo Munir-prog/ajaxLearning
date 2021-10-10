@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  thymeleaf:
+    prefix: file:src/main/resources/templates/
+    cache: false
+  jpa:
+    hibernate:
+      ddl-auto: update
